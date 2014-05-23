@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Avaaz Engineering blog</title>
+  <title>Ravamping the Avaaz Email System - Avaaz Engineering blog</title>
   <meta name="author" content="Avaaz tech team">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mogmaar.github.io/avz">
+  <link rel="canonical" href="http://mogmaar.github.io/avz/blog/2014/05/23/email-revamp">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Avaaz Engineering blog" type="application/atom+xml">
@@ -63,15 +63,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/05/23/email-revamp/">Ravamping the Avaaz Email System</a></h1>
+      <h1 class="entry-title">Ravamping the Avaaz Email System</h1>
     
     
       <p class="meta">
@@ -94,7 +91,7 @@
   </header>
 
 
-  <div class="entry-content"><p>One of Avaaz’s biggest engineering challenges is to email our entire membership in a timely fashion. At 36 million members and counting, this is a formidable task, and over the past year we revamped the entire sending system from the ground up, greatly increasing sending speed and reliability. So let’s kick-off the Avaaz engineering blog and talk a bit about how that happened.</p>
+<div class="entry-content"><p>One of Avaaz’s biggest engineering challenges is to email our entire membership in a timely fashion. At 36 million members and counting, this is a formidable task, and over the past year we revamped the entire sending system from the ground up, greatly increasing sending speed and reliability. So let’s kick-off the Avaaz engineering blog and talk a bit about how that happened.</p>
 
 <p>Avaaz’s Unique development environment
 Avaaz has always used it’s own email sending software. We’ve had a few reasons &mdash; our core software has always been custom built and maintained by our own tech team since we launched in 2006. At the time, there was no system that could handle the level of multilingualization that we wanted in an integrated CMS/CRM while giving us the degree of flexibility of features we need, and that still seems to be the case. Our first email sending code was very simple, but it got the job done for 1 million, 2 million, 3 million users, and we improved and iterated it based on the needs of scale, as well as the needs of campaigns. (Does sending an email at 9am local time improve conversions? Let’s build it and see. Turns out it didn’t&hellip;)</p>
@@ -142,18 +139,57 @@ RabbitMQ cluster, SSL</p>
 
 <p>With the first few projects under our belt, we expect the pace of re-writing discreet peices of functionality as stand-alone, independently scalable apps to accelerate, gaining enough momentum to catch up to and add tremendous value to our current platform over the next two years, all while providing a more solid foundation for additional innovation projects to keep finding new ways to serve our community.</p>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Avaaz tech team</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2014-05-23T16:25:15-07:00" pubdate data-updated="true">May 23<span>rd</span>, 2014</time>
+      
+
+<span class="categories">
   
-  <div class="pagination">
+    <a class='category' href='/blog/categories/cloud/'>cloud</a>, <a class='category' href='/blog/categories/email/'>email</a>
+  
+</span>
+
+
+    </p>
     
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://mogmaar.github.io/avz/blog/2014/05/23/email-revamp/" data-via="" data-counturl="http://mogmaar.github.io/avz/blog/2014/05/23/email-revamp/" >Tweet</a>
+  
+  
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -173,6 +209,7 @@ RabbitMQ cluster, SSL</p>
 
   
 </aside>
+
 
     </div>
   </div>
